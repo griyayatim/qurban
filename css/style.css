@@ -2213,12 +2213,12 @@ button.scroll-top:focus{
     margin-bottom: 25px;
     transition: all 0.2s ease-out;
     box-shadow: 0 3px 20px 0 rgba(0, 0, 0, 0.1);
-    border-top: 4px solid #642B7C;
+    /* border-top: 4px solid #642B7C; */
 }
 .single-blog-card-1:hover{
     transform: translateY(-10px);
     box-shadow: 0 1rem 3rem rgba(31,45,61,.12)!important;
-    border-top: 4px solid #F7931E;
+    /* border-top: 4px solid #F7931E; */
 }
 
 .single-blog-card-1 span.category {

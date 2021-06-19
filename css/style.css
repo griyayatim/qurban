@@ -129,6 +129,10 @@ input[type=number]::-webkit-outer-spin-button {
         -webkit-backface-visibility: hidden;
 }
 
+.card.border-2{
+    border: 5px;
+}
+
 .text-orange{
     color: #F7931E;
 }

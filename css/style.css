@@ -978,6 +978,25 @@ select.form-control.has-value{
     top: 0;
     left: 0;
 }
+.embed-gradient-overlay{
+    position: relative;
+    width: 100%;
+}
+
+.embed-gradient-overlay:before{
+    position: absolute;
+    content: '';
+    /* background-image: linear-gradient(to left, #C9A2CA, #A86BAA, #915099, #82448F, #642B7C) !important; */
+    /* background-image: linear-gradient(to left, rgba(50, 100, 245, 0.90), rgba(74, 84, 232, 0.88), rgba(91, 66, 219, 0.85), rgba(104, 44, 203, 0.88), rgba(114, 2, 187, 0.90)); */
+    /* background-image: linear-gradient(to left, rgba(201, 162, 202, 0.80), rgba(168, 107, 170, 0.78), rgba(145, 80, 153, 0.70), rgba(130, 68, 143, 0.73), rgba(100, 43, 124, 0.80)); */
+    background-image: linear-gradient(to right, #F89929, #F89928, #F89827, #F89624, #F7931E) !important;
+    /* background-image: linear-gradient(to left, rgba(201, 162, 202, 1), rgba(168, 107, 170, 1), rgba(145, 80, 153, 1), rgba(130, 68, 143, 1), rgba(100, 43, 124, 1)); */
+    /* background-image: linear-gradient(to left, #C9A2CA, #A86BAA, #915099, #82448F, #642B7C); */
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
 
 
 /*hero section 2*/

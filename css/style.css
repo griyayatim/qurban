@@ -441,6 +441,19 @@ a:hover{
     display: inline-block;
     border: 2px solid #642B7C;
 }
+.outline-btn-1{
+    border-radius: 30px;
+    color: #fff;
+    display: inline-block;
+    border: 2px solid #fff;
+}
+
+.outline-btn-1:hover{
+        background: #25d366;
+        color: #ffffff;
+        border-color: #25d366;
+}
+
 .outline-btn:hover{
     color: #fff;
     background: #642B7C;
@@ -453,8 +466,8 @@ a:hover{
 }
 .solid-white-btn, .outline-white-btn{
     padding: 12px 30px;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    /* font-weight: 700; */
 }
 .solid-white-btn{
     background: #ffffff;
@@ -2026,6 +2039,19 @@ button.scroll-top:focus{
     justify-content: center;
     align-items: center;
 }
+.full-screen-1{
+    min-height: 100vh;
+    position: relative;
+    width: 100%;
+    z-index: 1;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    /* justify-content: ; */
+    align-items: center;
+}
+
+
 
 .countdown-wrap h2, .countdown-wrap h5{
     color: #fff !important;

@@ -21,7 +21,7 @@
 jQuery(function ($) {
 
   'use strict';
-
+  
   // 1. preloader
   $(window).ready(function () {
     $('#preloader').delay(200).fadeOut('fade');
@@ -29,13 +29,26 @@ jQuery(function ($) {
 
   // 2. fixed navbar
   $(window).on('scroll', function () {
-    // checks if window is scrolled more than 500px, adds/removes solid class
+    // const iconColor = document.querySelector('.icon-color');
+    // const iconWhite = document.querySelector('.icon-white');
+    // iconWhite.classList.toggle('d-none');
+    //           iconColor.classList.toggle('d-none');
+    // // checks if window is scrolled more than 500px, adds/removes solid class
     if ($(this).scrollTop() > 58) {
       $('.navbar').addClass('affix');
+      $('#warna').addClass('d-none');
+      $('#btn-ungu').addClass('d-none');
+      $('#btn-putih').removeClass('d-none');
+      $('#putih').removeClass('d-none')
       $('.scroll-to-target').addClass('open');
+      
     } else {
       $('.navbar').removeClass('affix');
       $('.scroll-to-target').removeClass('open');
+      $('#btn-ungu').removeClass('d-none');
+      $('#btn-putih').addClass('d-none');
+      $('#putih').addClass('d-none');
+      $('#warna').removeClass('d-none');
     }
   });
 

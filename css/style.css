@@ -1133,12 +1133,18 @@ section-1 .row .col-md-6:last-child {
 .numbers .rect h1 {
   font-size: 5rem;
   color: tomato;
+  po
 }
 
 .numbers .rect > p {
     font-family: src: url(../fonts/scriptrager.otf1);
     color: white;
 }
+
+/* .numbers .rect > i {
+    font-family: src: url(../fonts/scriptrager.otf1);
+    color: white;
+} */
 
 .purchase > h1 {
   padding-top: 15vmin;

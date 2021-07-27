@@ -1156,7 +1156,7 @@ section-1 .row .col-md-6:last-child {
 }
 
 .cover .content > h1 {
-    font-family: src: url(../fonts/scriptrager.otf1);
+    font-family: url(../fonts/scriptrager.otf1);
     font-size: 16vmin;
     color: whitesmoke;
 }
@@ -1199,7 +1199,7 @@ section-1 .row .col-md-6:last-child {
 }
 
 .numbers .rect > p {
-    font-family: src: url(../fonts/scriptrager.otf1);
+    font-family: url(../fonts/scriptrager.otf1);
     color: white;
 }
 

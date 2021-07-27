@@ -555,6 +555,8 @@ select.form-control.has-value{
 .section-heading h2 span{
     font-weight: 400;
     font-size: 2rem;
+    /* margin-top: 20px; */
+
 }
 
 .z-index{
@@ -610,6 +612,18 @@ select.form-control.has-value{
     font-size: inherit;
     height: auto;
     margin-bottom: -8px;
+}
+
+.navbar-brand-centered{
+        position: absolute;
+        left: 40%;
+        display: block;
+        width: 300px;
+        text-align: center;
+    }
+    .navbar>.container .navbar-brand-centered,
+    .navbar>.container-fluid .navbar-brand-centered {
+        margin-left: -80%;
 }
 
 .menu {
@@ -1030,6 +1044,50 @@ select.form-control.has-value{
     left: 0;
 }
 
+.h2-headertq {
+    /* margin-top: 0px;
+    margin-bottom: 0px; */
+    position: absolute;
+    right: 0;
+    top: 100px;
+    color: #472A6A; 
+    /* border: 1px solid #000; */
+    
+}
+
+.p-headertq {
+    /* margin-top: 0px;
+    margin-bottom: 0px; */
+    position: absolute;
+    right: 0;
+    top: 130px;
+    /* border: 1px solid #000; */
+}
+
+.kotak-lg-1, .kotak-lg-2 {
+    /* border: aliceblue; */
+    border-radius: 10px;
+    padding: 10px;
+    
+    
+    /* box-shadow: 0px 0px 10px 10px gray; */
+    /* z-index: 1; */
+    
+}
+
+.kotak-lg-1 {
+    margin-top: 20px;
+    margin-bottom: -20px;
+    background-color: #472A6A;
+}
+
+.kotak-lg-2 {
+    margin-bottom: 50px;
+    border: #472A6A;
+    border-style: ridge;
+    z-index: -2;
+}
+
 /********** section 1 **************/
 
 .section-1 {
@@ -1113,15 +1171,15 @@ section-1 .row .col-md-6:last-child {
     position: relative;
     z-index: 1;
     background: #472A6A;
-    width: 10rem;
-    height: 13rem;
+    width: 8rem;
+    height: 11rem;
     padding-top: 3.5vmin;
     margin: 1rem;
     border-radius: 0.5em;
     box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 349);
 }
 .numbers {
-  margin-top: -15vmin;
+  margin-top: -5vmin;
 }
 
 .span {
@@ -2449,6 +2507,7 @@ button.scroll-top:focus{
 ============================================*/
 .footer-top{
     padding: 65px 0;
+    /* background-color: #472A6A; */
 }
 @media (min-width: 320px) and (max-width: 567px){
     .footer-top{
@@ -2473,6 +2532,10 @@ button.scroll-top:focus{
 .footer-nav-wrap ul li a:hover, .copyright-text a:hover, .social-list li a:hover {
     opacity: 1;
     text-decoration: none;
+}
+
+.footer-img {
+
 }
 
 .copyright-text {
